@@ -1,7 +1,7 @@
 import pyttsx3
 import PyPDF2
 # PDF File
-Book = open('give-and-take.pdf','rb')
+Book = open('SamplePDF','rb')
 # PDF Reader
 PdfReader = PyPDF2.PdfFileReader(Book)
 # Text to Speech
