@@ -13,8 +13,8 @@ PdfReader = PyPDF2.PdfFileReader(Book)
 
 
 # Pages 
-# PagesNumber = PdfReader.numPages
-# print(PagesNumber)
+PagesNumber = PdfReader.numPages
+print(PagesNumber)
 
 
 # Text to Speech Engine
