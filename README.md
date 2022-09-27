@@ -1,2 +1,2 @@
-### Just Run this Command 
+### GET STARTED 
      python App.py
