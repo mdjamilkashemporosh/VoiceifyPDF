@@ -1,7 +1,4 @@
 import io
-# import os
-# from datetime import timedelta
-# import pyttsx3
 from PyPDF2 import PdfReader
 
 from gtts import gTTS
