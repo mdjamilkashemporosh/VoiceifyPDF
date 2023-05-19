@@ -10,6 +10,7 @@ const dropArea = document.querySelector(".drop_box"),
 const URL = "http://127.0.0.1:8000";
 
 let playing = false;
+let fileName = null;
 
 button_choose.onclick = () => {
   input.click();
@@ -20,7 +21,7 @@ const handleDownload = async (blob) => {
     playing = true;
     const link = document.createElement("a");
     link.href = window.URL.createObjectURL(blob);
-    link.download = "audio.mp3";
+    link.download = `${fileName}.mp3`;
     link.click();
     window.URL.revokeObjectURL(link.href);
   } catch (error) {
@@ -60,6 +61,8 @@ input.addEventListener("change", function (e) {
 
   const formData = new FormData();
   formData.append("file", e.target.files[0]);
+  
+  fileName = e.target.files[0].name.split('.').slice(0, -1).join('.');
 
   fetch(`${URL}/upload`, {
     method: "POST",
