@@ -3,7 +3,7 @@
   <img src="https://github.com/mdjamilkashemporosh/pdf-to-audio-AI/blob/master/static/logo.png?raw=true" alt="WowCanvas Logo">
 </p>
 
-PDF-to-Audio-AI is a web application that converts PDF documents into audio using Google Text-to-Speech (gTTS) API. 
+PDF-to-Audio is an web application that converts PDF documents into audio using Google Text-to-Speech (gTTS) API. 
 It is built using the FastAPI Python framework and uses HTML/CSS for the default user interface.
 
 ## Demo
