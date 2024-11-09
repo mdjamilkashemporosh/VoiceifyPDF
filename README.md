@@ -22,17 +22,17 @@ https://github.com/mdjamilkashemporosh/pdf-to-audio/assets/50365984/a5c37801-49f
 
 Clone this repository to your local machine:
 
-```
-https://github.com/mdjamilkashemporosh/pdf-to-audio.git
+```bash 
+git clone https://github.com/mdjamilkashemporosh/pdf-to-audio.git
 ```
 
 Install the required packages:
-```
+```bash
 pip install -r requirements.txt
 ```
 
 Start the web application:
-```
+```bash
 uvicorn main:app --reload
 ```
 Open your web browser and go to ```127.0.0.1:8000```
